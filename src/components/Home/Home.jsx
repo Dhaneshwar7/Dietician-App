@@ -10,14 +10,23 @@ export default function Home() {
 						<p className="text-6xl max-sm:text-4xl max-sm:text-center font-bold text-left">
 							Trust me, your <br /> diet doesn’t <br /> have to be boring.
 						</p>
-						<p className="text-xl font-extralight text-left py-6 pr-32 max-sm:px-10 max-sm:text-base max-sm:text-center">
+						<p className="text-xl font-extralight text-left py-6 pr-40 max-sm:px-10 max-sm:text-base max-sm:text-center">
 							A healthy diet provides the body with essential nutrition: fluid,
 							macronutrients, micronutrients, and adequate calories.
 						</p>
 
-						<button className="px-6 hover:bg-[#03A768] bg-slate-300 border-1 hover:text-gray-100 text-base max-sm:text-center w-fit text-left rounded-full max-sm:py-2 max-sm:px-6  max-sm:text-sm py-3 max-sm:mb-5">
+						{/* <button className="px-6 hover:bg-[#03A768] bg-slate-300 border-1 hover:text-gray-100 text-base max-sm:text-center w-fit text-left rounded-full max-sm:py-2 max-sm:px-6  max-sm:text-sm py-3 max-sm:mb-5">
 							Check how can i help you
-						</button>
+						</button> */}
+						<a
+							className="py-3"
+							target="_blank"
+							href="https://wa.me/+917805806867"
+						>
+							<button className="px-14 max-sm:px-10 py-2 text-white flex items-center gap-4 rounded-full bg-blue-700">
+								Appointment Now
+							</button>
+						</a>
 					</div>
 					<div className="w-1/2 h-full max-sm:w-full max-sm:p-6 max-sm:mb-3">
 						<img
@@ -46,17 +55,17 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="h-screen max-sm:h-fit max-sm:flex-col max-sm:items-center w-full flex text-2xl sm:text-5xl py-10 sm:px-16">
-				<div className="left w-1/2 max-sm:w-full max-sm:p-6 flex items-center justify-center">
+			<div className="h-screen max-sm:h-fit max-sm:flex-col max-sm:items-center w-full flex text-2xl sm:text-5xl py-4 sm:px-16">
+				<div className="left w-1/2 max-sm:w-full max-sm:px-6 max-sm:py-8 flex items-center justify-center">
 					<div className="w-[300px] max-sm:w-full h-fit overflow-hidden">
 						<img
 							className="w-full max-sm:w-full l h-full object-contain"
-							src="https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRpZXR8ZW58MHx8MHx8fDA%3D"
+							src="https://babashivabramhiji.inextets.online/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-06-at-3.18.05-PM.jpeg"
 							alt=""
 						/>
 					</div>
 				</div>
-				<div className="right w-1/2 max-sm:w-full max-sm:px-6 leading-6 text-lg font-extralight py-10 flex flex-col max-sm:flex-col gap-5 items-start justify-center">
+				<div className="right w-1/2 max-sm:w-full max-sm:items-center max-sm:px-6 max-sm:py-10 max-sm:leading-7 text-lg font-extralight py-24 flex flex-col max-sm:flex-col gap-6 items-start justify-center">
 					<h1 className="text-5xl font-medium">About Us</h1>
 					<p>
 						Welcome to{' '}
@@ -84,8 +93,8 @@ export default function Home() {
 						Get started on your path to wellness today!
 					</p>
 					<a target="_blank" href="https://wa.me/+917805806867">
-						<button className="px-14 py-2 text-white flex items-center gap-4 rounded-full bg-blue-700">
-							<p className="text-3xl">✆</p> Contact Now
+						<button className="px-12 py-2 text-white flex items-center gap-4 rounded-full bg-blue-700">
+							<p className="text-3xl max-sm:text-xl">✆</p> Contact Now
 						</button>
 					</a>
 				</div>
